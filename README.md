@@ -1,7 +1,8 @@
 # **Interview Preparation: JavaScript, React.js & React Native**  
 
 This document provides a structured collection of important topics and concepts to help you prepare for **JavaScript, React.js, and React Native** interviews.
-Checkout the [Index.md](./RTP/Index.md) file
+Checkout the [Index.md](./RTP/Index.md) file for react interview preparation.
+Also now a days you are expected to know some basics of CI/CD so do checkout [this](./ci-cd.md) document also.
 
 ## **JavaScript Interview Questions**  
 (* denotes important topics)  
