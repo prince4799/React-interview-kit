@@ -17,6 +17,15 @@ React Refs provide a way to directly access DOM elements or React components. Th
 | 🔹 Accessing child DOM elements | 🚫 For passing data between components (use `props` or `context`). |
 | 🔹 Storing values that don’t trigger re-renders | |
 
+| ❌ Avoid `useRef` When...                    | ✅ Use `useRef` When...                        |
+|----------------------------------------------|-----------------------------------------------|
+| You need to trigger UI updates              | You need a reference to a DOM element        |
+| You are storing values that should re-render | You want to persist values across renders **without** re-rendering |
+| Managing state (use `useState` instead)      | Storing timers, intervals, or previous values |
+| Handling form inputs (use `useState`)        | Avoiding re-renders with stable references   |
+| Using it inside event handlers (can be stale)| Storing mutable values outside of reactivity |
+
+
  ## **How to Create and Use Refs?**
 `Refs in React are created using the useRef() hook in functional components or React.createRef() in class components`.
 ```js
