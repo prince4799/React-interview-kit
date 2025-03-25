@@ -124,6 +124,7 @@
 - [React Navigation](./React-Native/react-navigation.md)
 - [React Router](./ReactJS/react-router.md)
 - [Server-Side Rendering (SSR) & Static Site Generation (SSG)](./server-side-rendering.md)
+- [CORS Error](./JS/CORS.md)
 </details>
 
 <details open>
