@@ -1,6 +1,6 @@
 <div style="background-color:rgb(0, 0, 0); padding: 10px; flex:1; height:100%; width:100%"> 
 
-  [⬅ Go Back](./Index.md) 
+  [⬅ Go Back](../Index.md) 
  <h1 style="text-align: center; margin: 0; color:#00fc04; ">Custom Hooks → When and why to create them.</h1>
   <div style="height: 5px; width: 100%; background-color: #000; display: block; margin-top: 5px;"></div>
 Custom Hooks in React allow you to extract reusable logic from components, making code cleaner, modular, and maintainable. They are regular JavaScript functions that follow the React Hook rules and can use other hooks like useState, useEffect, etc.
