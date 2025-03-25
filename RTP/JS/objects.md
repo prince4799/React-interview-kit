@@ -144,4 +144,36 @@ Using `Object.assign()` or spread syntax (`{ ...obj1, ...obj2 }`).
 - **Shallow Copy:** Copies references to nested objects (`Object.assign()`, `{ ...obj }`).
 - **Deep Copy:** Recursively copies all properties (`JSON.parse(JSON.stringify(obj))`, `structuredClone(obj)`).
 
+### 11. `Object.freeze()` vs `Object.seal()`
+
+# `Object.freeze()` vs `Object.seal()` in JavaScript
+
+| Feature                                      | `Object.freeze()` ❄️       | `Object.seal()` 🔒         |
+|----------------------------------------------|---------------------------|---------------------------|
+| **Adding new properties**                    | ❌ Not allowed            | ❌ Not allowed            |
+| **Modifying existing properties**            | ❌ Not allowed            | ✅ Allowed (if writable)  |
+| **Deleting properties**                      | ❌ Not allowed            | ❌ Not allowed            |
+| **Changing property descriptors** (`writable`, `configurable`) | ❌ Not allowed            | ❌ Not allowed            |
+| **Extensibility (`Object.isExtensible()`)**  | ❌ `false`                 | ❌ `false`                 |
+| **Configurable properties**                  | ❌ All become non-configurable | ❌ All become non-configurable |
+| **Use case**                                 | Completely lock an object (immutable) | Prevent adding/removing properties but allow modifications |
+
+## Example Usage
+
+```js
+const obj1 = { name: "Alice", age: 25 };
+Object.freeze(obj1);
+obj1.age = 30; // ❌ Won't work (no error in non-strict mode)
+console.log(obj1.age); // 25
+
+const obj2 = { name: "Bob", age: 30 };
+Object.seal(obj2);
+obj2.age = 35; // ✅ Works because property is still writable
+delete obj2.name; // ❌ Won't work
+console.log(obj2); // { name: "Bob", age: 35 }
+```
+### **Key Takeaways**
+- Use Object.freeze() when you want a truly immutable object (no changes at all).
+- Use Object.seal() when you want to allow value changes but prevent adding/removing properties.
+
 
