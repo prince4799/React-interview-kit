@@ -65,6 +65,7 @@
 - [Prototype & Prototype Chaining](./JS/prototype-prototype-chaining.md)
 - [Currying](./JS/currying.md)
 - [Throttling vs Debouncing](./JS/throtling.md)
+- [Arrow function](./JS/arrow-function.md)
 </details>
 
 <details open>
