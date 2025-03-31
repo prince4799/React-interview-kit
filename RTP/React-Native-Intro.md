@@ -19,7 +19,7 @@
 - <span style="text-decoration:underline; font-weight:bold;">Uses React:</span> React Native follows the same principles as React.js for building UIs using components and state management.
 
 - <span style="text-decoration:underline; font-weight:bold;">Bridges to Native Code:</span> React Native converts JavaScript code into native code (Objective-C, Swift for iOS & Java, Kotlin for Android) using a JavaScript bridge.
-- <span style="text-decoration:underline; font-weight:bold;">Prebuilt Native Components:</span> Provides core components like <View>, <Text>, and <Image> that map directly to native UI elements.
+- <span style="text-decoration:underline; font-weight:bold;">Prebuilt Native Components:</span> Provides core components like `<View>`, `<Text>`, and `<Image>` that map directly to native UI elements.
 - <span style="text-decoration:underline; font-weight:bold;">Fast Development:</span> Features like Hot Reloading and Fast Refresh allow developers to see changes instantly.
 
 - <span style="text-decoration:underline; font-weight:bold;">How does React Native differ from React.js?</span>
