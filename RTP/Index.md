@@ -101,6 +101,7 @@
 - [useCallback](./definitions/useCallback.md)*
 - [Context-API](./definitions/context_API.md)*
 - [Memo](./definitions/memo_definition.md)*
+- [Solid principles](./Common/solid-principles.md)
 </details>
 
 <details open>
