@@ -115,5 +115,40 @@ let arr2 = [3, 4, 5];
 let merged = [...new Set([...arr1, ...arr2])]; // [1, 2, 3, 4, 5]
 ```
 
+| Array Operation             | Syntax                                              | Return Type             |
+|-----------------------------|-----------------------------------------------------|-------------------------|
+| **push()**                   | `array.push(element1, element2, ...)`               | New Array Length        |
+| **pop()**                    | `array.pop()`                                       | Removed Element         |
+| **shift()**                  | `array.shift()`                                     | Removed Element         |
+| **unshift()**                | `array.unshift(element1, element2, ...)`            | New Array Length        |
+| **concat()**                 | `array.concat(array2, array3, ...)`                 | New Array               |
+| **join()**                   | `array.join(separator)`                             | String (joined elements)|
+| **slice()**                  | `array.slice(start, end)`                           | New Array               |
+| **splice()**                 | `array.splice(start, deleteCount, item1, item2, ...)` | Modified Array         |
+| **forEach()**                | `array.forEach(callback)`                           | `undefined`             |
+| **map()**                    | `array.map(callback)`                               | New Array               |
+| **filter()**                 | `array.filter(callback)`                            | New Filtered Array      |
+| **reduce()**                 | `array.reduce(callback, initialValue)`              | Accumulated Value       |
+| **reduceRight()**            | `array.reduceRight(callback, initialValue)`         | Accumulated Value       |
+| **every()**                  | `array.every(callback)`                             | Boolean                 |
+| **some()**                   | `array.some(callback)`                              | Boolean                 |
+| **indexOf()**                | `array.indexOf(element, fromIndex)`                 | Index (Number)          |
+| **lastIndexOf()**            | `array.lastIndexOf(element, fromIndex)`             | Index (Number)          |
+| **find()**                   | `array.find(callback)`                              | First Matching Element  |
+| **findIndex()**              | `array.findIndex(callback)`                         | Index (Number)          |
+| **includes()**               | `array.includes(element)`                           | Boolean                 |
+| **sort()**                    | `array.sort(compareFunction)`                       | Sorted Array            |
+| **reverse()**                | `array.reverse()`                                   | Reversed Array          |
+| **fill()**                   | `array.fill(value, start, end)`                     | Modified Array          |
+| **copyWithin()**             | `array.copyWithin(target, start, end)`              | Modified Array          |
+| **flat()**                   | `array.flat(depth)`                                 | New Flattened Array     |
+| **flatMap()**                | `array.flatMap(callback)`                           | New Array               |
+| **from()**                   | `Array.from(arrayLike, mapFunction)`                | New Array               |
+| **keys()**                   | `array.keys()`                                      | Array Iterator (Keys)   |
+| **values()**                 | `array.values()`                                    | Array Iterator (Values) |
+| **entries()**                | `array.entries()`                                   | Array Iterator (Entries)|
+| **findLast()**               | `array.findLast(callback)`                          | Last Matching Element   |
+| **findLastIndex()**          | `array.findLastIndex(callback)`                     | Index (Number)          |
+| **at()**                     | `array.at(index)`                                   | Element (or `undefined`)|
 
 
