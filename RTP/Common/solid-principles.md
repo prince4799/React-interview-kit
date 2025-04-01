@@ -1,6 +1,6 @@
 [Go back](../Index.md)
 
-```md
+
 # SOLID Principles in React Native
 
 ## Overview
@@ -16,7 +16,7 @@ The **SOLID** principles are a set of five design principles that help developer
 | **I** - Interface Segregation Principle (ISP) | Clients should not depend on interfaces they do not use. | Avoid unnecessary props; create separate smaller components. |
 | **D** - Dependency Inversion Principle (DIP) | High-level modules should not depend on low-level modules. Both should depend on abstractions. | Use hooks or context API instead of direct dependencies. |
 
----
+
 
 ## 1. Single Responsibility Principle (**SRP**)
 > **A component should have only one reason to change.**
