@@ -1,4 +1,4 @@
-<details>
+<details open>
 <summary>
     
 # JavaScript Interview Questions
@@ -79,7 +79,7 @@
 
 </details>
 
-<details>
+<details open>
 
 <summary>
     
@@ -161,7 +161,7 @@
 
 </summary>
 
-<details>
+<details open>
     <summary>
     30 Must-Know Machine Coding Problems 
 </summary> 
